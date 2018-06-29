@@ -19,7 +19,7 @@ export default class Home extends Vue {
   mounted() {
     this.setBackUrl('/');
     this.setMenu([{
-      text: 'strings.example',
+      text: 'strings.user',
       key: 1,
       handler(evt) {
         evt.preventDefault();
@@ -27,7 +27,7 @@ export default class Home extends Vue {
         dialog('strings.clicked', false);
       },
     }, {
-      text: 'strings.example2',
+      text: 'strings.user',
       key: 2,
       handler(evt) {
         evt.preventDefault();

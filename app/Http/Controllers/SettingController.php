@@ -19,7 +19,7 @@ class SettingController extends Controller
             $settingsFile = Utils::getSettingsFile();
 
             $settings = json_encode([ // TODO change
-                'example' => $request->input('example', ''),
+                'user' => $request->input('user', ''),
             ]);
 
             file_put_contents($settingsFile, $settings);

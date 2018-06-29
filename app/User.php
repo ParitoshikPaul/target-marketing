@@ -47,7 +47,7 @@ class User extends Authenticatable implements JWTSubject
             case 1:
             return '/';
             default:
-            return '/example'; // TODO change
+            return '/user'; // TODO change
         }
     }
 

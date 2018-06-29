@@ -67,7 +67,7 @@ div
             the-message-badge
 
           b-nav-item.github-link(
-            href='https://github.com/alefesouza/laravel-vue-boilerplate',
+            href='https://github.com/ParitoshikPaul/target-marketing',
             target='_blank',
           ) GitHub
             | &nbsp;

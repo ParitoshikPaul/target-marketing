@@ -1,5 +1,4 @@
 FROM php:7.0.30-apache
-LABEL maintainer="Alefe Souza <contact@alefesouza.com>"
 
 RUN a2enmod rewrite
 
@@ -9,7 +8,7 @@ RUN apt-get update \
   && docker-php-ext-install intl pdo_mysql zip
 
 RUN pecl install xdebug-2.5.5 && docker-php-ext-enable xdebug
-
+RUN apt-get update && apt-get install -my wget gnupg
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
   && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
   && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list

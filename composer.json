@@ -1,10 +1,9 @@
 {
-  "name": "alefesouza/laravel-vue-boilerplate",
-  "description": "A Laravel 5.5 SPA boilerplate with a users CRUD using Vue.js 2.5, Bootstrap 4, TypeScript, Sass, Pug and Jest.",
+  "name": "target-marketing",
+  "description": "Target marketing using Vue.js 2.5, Bootstrap 4, TypeScript, Sass, Pug and Jest.",
   "keywords": [
     "laravel",
     "vue",
-    "boilerplate",
     "typescript",
     "sass",
     "scss",
@@ -13,8 +12,8 @@
   ],
   "authors": [{
       "name": "Alefe Souza",
-      "email": "contact@alefesouza.com",
-      "homepage": "https://alefesouza.com"
+      "email": "contact@ParitoshikPaul.com",
+      "homepage": "https://ParitoshikPaul.com"
     },
     {
       "name": "The Laravel Framework",

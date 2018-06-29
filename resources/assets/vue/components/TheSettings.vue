@@ -93,12 +93,12 @@ b-modal(
     //- TODO change
     b-form-group(
       v-if='userType === 1',
-      :label='$t("strings.example")'
-      label-for='example',
+      :label='$t("strings.user")'
+      label-for='user',
     )
       b-form-input#example(
         type='text',
-        v-model='settings.example',
+        v-model='settings.user',
         maxlength=191,
         required,
       )

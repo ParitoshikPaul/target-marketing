@@ -1,12 +1,11 @@
 {
-  "name": "laravel-vue-boilerplate",
-  "description": "A Laravel 5.5 SPA boilerplate with a users CRUD using Vue.js 2.5, Bootstrap 4, TypeScript, Sass, Pug and Jest.",
+  "name": "target-marketing",
+  "description": "Target Marketing project",
   "version": "1.0.0",
-  "author": "Alefe Souza <contact@alefesouza.com>",
+  "author": "ParitoshikPaul",
   "keywords": [
     "laravel",
     "vue",
-    "boilerplate",
     "typescript",
     "sass",
     "scss",
@@ -67,12 +66,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alefesouza/laravel-vue-boilerplate.git"
+    "url": "git+https://github.com/ParitoshikPaul/target-marketing.git"
   },
   "bugs": {
-    "url": "https://github.com/alefesouza/laravel-vue-boilerplate/issues"
+    "url": "https://github.com/ParitoshikPaul/target-marketing/issues"
   },
-  "homepage": "https://github.com/alefesouza/laravel-vue-boilerplate#readme",
+  "homepage": "https://github.com/ParitoshikPaul/target-marketing#readme",
   "jest": {
     "globals": {
       "baseUrl": ""

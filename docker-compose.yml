@@ -1,9 +1,9 @@
-version: '3'
+version: '2'
 
 services:
   php:
     build: .
-    container_name: laravel-vue-boilerplate
+    container_name: target_marketing
     ports:
       - 8000:80
     volumes:
@@ -16,7 +16,7 @@ services:
     image: phpmyadmin/phpmyadmin:4.7
     container_name: phpmyadmin
     ports:
-      - 8081:80
+      - 8080:80
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=${DB_CONNECTION}
@@ -35,6 +35,6 @@ services:
       - MYSQL_PASSWORD=${DB_PASSWORD}
       - MYSQL_ALLOW_EMPTY_PASSWORD=true
     ports:
-      - 3306:3306
+      - 3307:3307
     volumes:
       - /var/lib/mysql

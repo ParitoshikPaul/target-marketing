@@ -31,7 +31,7 @@ export default class BaseAuth extends Vue {
         h1 {{ $t('strings.welcome') }}!
         .sub-text {{ $t('login.description') }}
 
-  a(href='https://github.com/alefesouza/laravel-vue-boilerplate', target='_blank')
+  a(href='https://github.com/ParitoshikPaul/target-marketing', target='_blank')
     img(
       src='https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png',
       alt='Fork me on GitHub',
